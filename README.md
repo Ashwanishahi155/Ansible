@@ -11,8 +11,9 @@ This lab demonstrates a practical Ansible setup using:
 - Multiple Managed Nodes
 - SSH key-based authentication
 - Ansible Inventory
-- Ansible Playbook
+- Ansible Playbook  
 - Nginx installation and configuration
+
 
 The objective was to configure the control node, establish SSH key-based connectivity with managed nodes, generate inventory entries, test Ansible connectivity, and install Nginx on managed nodes.
 
