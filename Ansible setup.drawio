@@ -1,0 +1,620 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3" pages="3">
+  <diagram name="Page-1" id="l4BZy9iLwEQ4MgxN5B4_">
+    <mxGraphModel dx="1931" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pPHylTmaeJa6rmeHYazc-3" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Spot_VM.svg;" parent="1" vertex="1">
+          <mxGeometry x="820" y="300" width="68" height="62.8" as="geometry" />
+        </mxCell>
+        <mxCell id="pPHylTmaeJa6rmeHYazc-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pPHylTmaeJa6rmeHYazc-4" target="pPHylTmaeJa6rmeHYazc-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pPHylTmaeJa6rmeHYazc-4" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Spot_VM.svg;" parent="1" vertex="1">
+          <mxGeometry x="560" y="310" width="68" height="62.8" as="geometry" />
+        </mxCell>
+        <mxCell id="pPHylTmaeJa6rmeHYazc-5" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Spot_VM.svg;" parent="1" vertex="1">
+          <mxGeometry x="300" y="310" width="68" height="62.8" as="geometry" />
+        </mxCell>
+        <mxCell id="pPHylTmaeJa6rmeHYazc-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pPHylTmaeJa6rmeHYazc-6" target="pPHylTmaeJa6rmeHYazc-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pPHylTmaeJa6rmeHYazc-6" value="HUB Vnet" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="274" y="150" width="396" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pPHylTmaeJa6rmeHYazc-8" value="Azure bastion" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pPHylTmaeJa6rmeHYazc-9" value="hub VM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pPHylTmaeJa6rmeHYazc-10" value="Spoke&amp;nbsp; VM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="794" y="372.8" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pPHylTmaeJa6rmeHYazc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.044;entryY=0.446;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="pPHylTmaeJa6rmeHYazc-5" target="pPHylTmaeJa6rmeHYazc-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pPHylTmaeJa6rmeHYazc-13" value="Public IP" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pPHylTmaeJa6rmeHYazc-14" value="Spoke&amp;nbsp; Vnet" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="150" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pPHylTmaeJa6rmeHYazc-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pPHylTmaeJa6rmeHYazc-15" target="pPHylTmaeJa6rmeHYazc-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pPHylTmaeJa6rmeHYazc-15" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user_accounts.svg;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="307" width="50" height="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pPHylTmaeJa6rmeHYazc-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.044;entryY=0.303;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="pPHylTmaeJa6rmeHYazc-13" target="pPHylTmaeJa6rmeHYazc-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pPHylTmaeJa6rmeHYazc-18" value="Private ip" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="410" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pPHylTmaeJa6rmeHYazc-19" value="Private IP" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="690" y="307" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XexjuxkEaOLUkIVENpgM" name="Page-2">
+    <mxGraphModel dx="1931" dy="1641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lT5y6rWjhT2gohbr-tiM-1" target="lT5y6rWjhT2gohbr-tiM-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Managed_File_Shares.svg;" parent="1" vertex="1">
+          <mxGeometry x="-90" y="-40" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-2" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/hard_disk.svg;" parent="1" vertex="1">
+          <mxGeometry x="-90" y="160" width="50" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="80" y="-100" width="480" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-5" value="&lt;b&gt;Cluster&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="455.5" y="-140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-4" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Building_Cluster.svg;" parent="1" vertex="1">
+          <mxGeometry x="540" y="-181" width="121.2" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+          <mxGeometry x="110" y="-50" width="410" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-7" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Spot_VMSS.svg;" parent="1" vertex="1">
+          <mxGeometry x="387.5" y="-80" width="68" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-8" value="&lt;b&gt;Node&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="317.5" y="-70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-9" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" parent="1" vertex="1">
+          <mxGeometry x="430" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="1" source="lT5y6rWjhT2gohbr-tiM-10" target="lT5y6rWjhT2gohbr-tiM-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-10" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" parent="1" vertex="1">
+          <mxGeometry x="430" y="76" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-11" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" parent="1" vertex="1">
+          <mxGeometry x="430" y="160" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="1" source="lT5y6rWjhT2gohbr-tiM-13" target="lT5y6rWjhT2gohbr-tiM-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-13" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pvc" parent="1" vertex="1">
+          <mxGeometry x="310" y="70" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" source="lT5y6rWjhT2gohbr-tiM-9" target="lT5y6rWjhT2gohbr-tiM-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" source="lT5y6rWjhT2gohbr-tiM-11" target="lT5y6rWjhT2gohbr-tiM-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-22" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pv" parent="1" vertex="1">
+          <mxGeometry x="150" y="70" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.098;entryY=0.536;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lT5y6rWjhT2gohbr-tiM-1" target="lT5y6rWjhT2gohbr-tiM-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="-6" />
+              <mxPoint x="50" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lT5y6rWjhT2gohbr-tiM-2" target="lT5y6rWjhT2gohbr-tiM-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-26" value="Azure Files" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="-116" y="-70" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-28" value="volumeMount" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="305" y="10" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lT5y6rWjhT2gohbr-tiM-29" value="Volumes" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="50" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4t9A9hU9uL66ARhiup4-" name="Page-3">
+    <mxGraphModel dx="1692" dy="1641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="afyTzrGn9s4vOxVSszG1-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="322.5" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" parent="1" vertex="1">
+          <mxGeometry x="288" y="620" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-4" value="&lt;b&gt;Control Node&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
+          <mxGeometry x="178" y="590" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Ansible = &lt;/font&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Ansible ek automated tool hai jis se hum Multiple Server/Machine&amp;nbsp; pe ek saath Configuration automatically deploy kara sakte hai.&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="60" y="-650" width="560" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="322.5" y="760" as="sourcePoint" />
+            <mxPoint x="322.5" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-16" value="&lt;b&gt;azureuser@control-node&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="240" y="730" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" target="afyTzrGn9s4vOxVSszG1-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="830" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="330" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-17" value="Ansible Installed on Control VM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+          <mxGeometry x="240" y="790" width="165" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Inventory.ini&lt;br&gt;&lt;br&gt;(Where)&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="55.5" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-21" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;nginx.yaml&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;(What)&lt;br&gt;Play book&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="280" y="900" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.667;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.6;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="afyTzrGn9s4vOxVSszG1-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="890" as="sourcePoint" />
+            <mxPoint x="130.03999999999996" y="900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="901" />
+              <mxPoint x="570" y="870" />
+              <mxPoint x="130" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-29" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;VM list.txt&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="500" y="905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-30" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" parent="1" vertex="1">
+          <mxGeometry x="110" y="-270" width="86.25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-31" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" parent="1" vertex="1">
+          <mxGeometry x="468" y="-360" width="57" height="52.87" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-32" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" parent="1" vertex="1">
+          <mxGeometry x="480" y="-266" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="-240" as="targetPoint" />
+            <mxPoint x="480" y="-128" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-33" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" parent="1" vertex="1">
+          <mxGeometry x="480" y="-150" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-34" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Spot_VMSS.svg;" parent="1" vertex="1">
+          <mxGeometry x="588" y="-320" width="68" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="-190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="506" y="-178" />
+              <mxPoint x="506" y="-180" />
+              <mxPoint x="410" y="-180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-35" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Spot_VMSS.svg;" parent="1" vertex="1">
+          <mxGeometry x="600" y="-210" width="68" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.422;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-30" target="afyTzrGn9s4vOxVSszG1-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="-238" />
+              <mxPoint x="330" y="-240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-42" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;" parent="1" target="afyTzrGn9s4vOxVSszG1-34" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="-288" as="sourcePoint" />
+            <mxPoint x="500" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-44" value="" style="endArrow=none;html=1;rounded=0;flowAnimation=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="-240" as="sourcePoint" />
+            <mxPoint x="410" y="-340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.416;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" target="afyTzrGn9s4vOxVSszG1-31" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="-338" as="sourcePoint" />
+            <mxPoint x="460" y="-380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-46" value="&lt;b&gt;Control Node&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="76.25" y="-310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-47" value="&lt;b&gt;Managed Nodes&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="450" y="-410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.417;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="afyTzrGn9s4vOxVSszG1-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="10" as="sourcePoint" />
+            <mxPoint x="90" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-48" value="&lt;b&gt;Control Node&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="10" y="-80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-49" value="" style="image;html=1;image=img/lib/clip_art/general/Full_Folder_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="83.75" y="10" width="66.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" target="afyTzrGn9s4vOxVSszG1-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="130" as="sourcePoint" />
+            <mxPoint x="88.13" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="190" />
+              <mxPoint x="98" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-50" value="" style="image;html=1;image=img/lib/clip_art/general/Full_Folder_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="88.13" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-51" value="" style="image;html=1;image=img/lib/clip_art/general/Full_Folder_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="110" y="175" width="48.13" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="58.13" y="19" as="sourcePoint" />
+            <mxPoint x="98.13" y="19" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="88.13" y="19" />
+              <mxPoint x="88.13" y="19" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-57" target="afyTzrGn9s4vOxVSszG1-134" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-57" value="&lt;b&gt;inventory.ini&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#B09500;fillColor=#e3c800;align=center;verticalAlign=middle;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-59" target="afyTzrGn9s4vOxVSszG1-141" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-59" value="&lt;b&gt;nginx.yaml&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#B09500;fillColor=#e3c800;align=center;verticalAlign=middle;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="150" y="70" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-60" target="afyTzrGn9s4vOxVSszG1-143" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-60" value="&lt;b&gt;VM LIst .txt&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#B09500;fillColor=#e3c800;align=center;verticalAlign=middle;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="150" y="180" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-63" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Ansible = A+C+S&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;b&gt;A = Automation&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;b&gt;C = Consistency&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;b&gt;S = Scalibility&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="280" y="-560" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-67" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" parent="1" vertex="1">
+          <mxGeometry x="81" y="1140" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-68" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1140" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-69" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" parent="1" vertex="1">
+          <mxGeometry x="280" y="1140" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-70" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" parent="1" vertex="1">
+          <mxGeometry x="381" y="1140" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-71" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" parent="1" vertex="1">
+          <mxGeometry x="480" y="1140" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-72" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" parent="1" vertex="1">
+          <mxGeometry x="580" y="1140" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-73" value="&lt;b&gt;VM01&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-74" value="&lt;b&gt;VM02&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="184.5" y="1210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-75" value="&lt;b&gt;VM03&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="288" y="1210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-76" value="&lt;b&gt;VM04&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="385.5" y="1210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-77" value="&lt;b&gt;VM05&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="484.5" y="1210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-79" value="&lt;b&gt;VM06&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="580" y="1210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="afyTzrGn9s4vOxVSszG1-21" target="afyTzrGn9s4vOxVSszG1-64" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="970" as="sourcePoint" />
+            <mxPoint x="355" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-64" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;SSH&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1040" width="570" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.464;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="127" y="1081" as="sourcePoint" />
+            <mxPoint x="127.01600000000008" y="1139.996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="127" y="1081" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.464;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="1080" as="sourcePoint" />
+            <mxPoint x="415.0160000000001" y="1138.996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="415" y="1099" />
+              <mxPoint x="415" y="1099" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.464;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="314" y="1081" as="sourcePoint" />
+            <mxPoint x="314.0160000000001" y="1139.996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="314" y="1100" />
+              <mxPoint x="314" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.464;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="514" y="1081" as="sourcePoint" />
+            <mxPoint x="514.0160000000001" y="1139.996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="514" y="1101" />
+              <mxPoint x="514" y="1101" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.464;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="609.5" y="1080" as="sourcePoint" />
+            <mxPoint x="609.5160000000001" y="1138.996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="609.5" y="1100" />
+              <mxPoint x="609.5" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.464;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="214" y="1080" as="sourcePoint" />
+            <mxPoint x="214.01600000000008" y="1138.996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="214" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-134" value="[webservers]&amp;nbsp;&lt;div&gt;managed01 ansible_host=10.10.1.10&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[webservers:vars]&lt;/div&gt;&lt;div&gt;ansible_user=azureuser&lt;/div&gt;&lt;div&gt;ansible_ssh_private_key_file=/home/azureuser/.ssh/id_ed25519&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" parent="1" vertex="1">
+          <mxGeometry x="288" y="-70" width="372" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-141" value="&lt;b&gt;Ab jo commands humne manually modules ke through kiye, unko &lt;span data-start=&quot;8075&quot; data-end=&quot;8098&quot;&gt;one automation file&lt;/span&gt; mein convert karenge.&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="291" y="60" width="362" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-143" value="&lt;b&gt;az vm list &lt;span class=&quot;ͼn&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;ͼn&quot;&gt;--query&lt;/span&gt; &lt;span class=&quot;ͼk&quot;&gt;&quot;[].{VMName:name, PrivateIP:privateIps, PublicIP:publicIps}&quot;&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;ͼn&quot;&gt;-o&lt;/span&gt; table&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="288" y="170" width="365" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-145" value="" style="image;html=1;image=img/lib/clip_art/general/Full_Folder_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="98.13" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-150" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-147" target="afyTzrGn9s4vOxVSszG1-149" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-147" value="&lt;b&gt;&amp;nbsp;MODULE&amp;nbsp;&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#B09500;fillColor=#e3c800;align=center;verticalAlign=middle;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="155" y="270" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="30" as="sourcePoint" />
+            <mxPoint x="110" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="130" />
+              <mxPoint x="60" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-149" value="&lt;b&gt;Predefined Functionality&lt;br&gt;Apt/Yum/Service/Copy/file/User/Command/Shell&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="295" y="260" width="335" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-155" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-151" target="afyTzrGn9s4vOxVSszG1-152" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-151" value="┌─────────────────────────────────────────────┐&#xa;│ INVENTORY                                    │&#xa;│ WHERE → Kaunse servers manage karne hain?  │&#xa;└─────────────────────────────────────────────┘" style="text;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="690" y="-80" width="430" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-158" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-152" target="afyTzrGn9s4vOxVSszG1-154" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-152" value="┌─────────────────────────────────────────────┐&#xa;│ MODULE                                      │&#xa;│ HOW → Operation kaise karna hai?           │&#xa;│ apt / service / command / ping              │&#xa;└─────────────────────────────────────────────┘" style="text;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="690" y="255" width="430" height="70" as="geometry" />
+        </mxCell>
+        <UserObject label="┌─────────────────────────────────────────────┐&#xa;│ PLAYBOOK                                    │&#xa;│ WHAT → Kya configuration karni hai?        │&#xa;│ nginx.yml                                   │&#xa;└─────────────────────────────────────────────┘" link="┌─────────────────────────────────────────────┐&#xa;│ PLAYBOOK                                    │&#xa;│ WHAT → Kya configuration karni hai?        │&#xa;│ nginx.yml                                   │&#xa;└─────────────────────────────────────────────┘" id="afyTzrGn9s4vOxVSszG1-153">
+          <mxCell style="text;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="690" y="60" width="430" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-154" value="─────────────────────────────────────────────┐&#xa;│ IDEMPOTENCY                                 │&#xa;│ Same playbook dobara → unnecessary change  │&#xa;│ nahi                                        │&#xa;└─────────────────────────────────────────────┘" style="text;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="693" y="390" width="430" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-160" value="&lt;b&gt;Ansible Linux managed nodes ke saath normally SSH use karega&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="405" y="810" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-161" value="Private key → Control Node par rahegi 🔐&#xa;Public key  → Managed VMs par jayegi 🔑" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="2510" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-162" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;STEPS&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="1280" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-169" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-164" target="afyTzrGn9s4vOxVSszG1-165" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-164" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1st login in to control node &amp;amp; install ansible by CMD&amp;nbsp;&lt;br&gt;Sudo apt update&lt;br&gt;sudo apt install ansible -y&lt;br&gt;&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;verify Ansible version - ansible --version&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="84.5" y="1300" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-165" target="afyTzrGn9s4vOxVSszG1-166" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-165" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Genegate Keys&lt;br&gt;ssh-keygen -t ed25519&lt;br&gt;&lt;br&gt;to See key : run : ls -la ~/.ssh/&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="104.13" y="1490" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-171" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-166" target="afyTzrGn9s4vOxVSszG1-167" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-166" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Ansible project banao - cmd : mkdir -p ~/ansible-lab&lt;br&gt;then CD karke ghus jaao&amp;nbsp;&lt;br&gt;&lt;br&gt;cd ~/ansible-lab&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="118" y="1590" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-172" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-167" target="afyTzrGn9s4vOxVSszG1-168" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-167" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;ab hume VM-list.txt file banai hai jiske andar VM IP &amp;amp; username dena hoga&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="92.13" y="1710" width="404" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-175" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-168" target="afyTzrGn9s4vOxVSszG1-174" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-168" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;power Shell pe&amp;nbsp;&lt;br&gt;&lt;br&gt;az login&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;then&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;az vm list -g ash-rg --query &quot;[].name&quot; -o tsv | ForEach-Object {&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp; &amp;nbsp; $vm = $_&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp; &amp;nbsp; $ip = az vm show -d -g ash-rg -n $vm --query &quot;publicIps&quot; -o tsv&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp; &amp;nbsp; $user = az vm show -g ash-rg -n $vm --query &quot;osProfile.adminUsername&quot; -o tsv&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;$ip $user&quot;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;}&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="98.13" y="1830" width="840" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-177" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-174" target="afyTzrGn9s4vOxVSszG1-176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-174" value="&lt;b&gt;Again Come on to Ansible-lab path&amp;nbsp;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="359" y="2120" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-179" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-176" target="afyTzrGn9s4vOxVSszG1-178" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-176" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;jo cmd ka Output aaya use ek file me paste karenge&amp;nbsp;&lt;br&gt;nano vm-list.txt enter&amp;nbsp;&lt;br&gt;yaha detail pastr&amp;nbsp;&lt;br&gt;&amp;amp;&lt;br&gt;ctrl+o,enter,ctrl+x&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="130" y="2240" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-182" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-178" target="afyTzrGn9s4vOxVSszG1-181" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-178" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1st file created &amp;amp; now we start&amp;nbsp; distribute SSH Key on managed node&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;we have 50 vm so manaual task lnthy&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;so by scripting use to distribute private key on all managed vm&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="110" y="2380" width="410" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-184" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-181" target="afyTzrGn9s4vOxVSszG1-183" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;while read -r ip user&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;do&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp; &amp;nbsp; [ -z &quot;$ip&quot; ] &amp;amp;&amp;amp; continue&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp; &amp;nbsp; echo &quot;===== $ip / $user =====&quot;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp; &amp;nbsp; ssh-copy-id \&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; -i ~/.ssh/id_ed25519.pub \&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;$user@$ip&quot;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;done &amp;lt; vm-list.txt&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" link="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;while read -r ip&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;do&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;nbsp; &amp;nbsp; [ -z &quot;$ip&quot; ] &amp;amp;&amp;amp; continue&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;nbsp; &amp;nbsp; echo &quot;===== $ip =====&quot;&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;nbsp; &amp;nbsp; ssh-copy-id \&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; -i ~/.ssh/id_ed25519.pub \&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; azureuser@$ip&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;done &amp;lt; vm-list.txt&lt;/span&gt;&#xa;&#xa;" id="afyTzrGn9s4vOxVSszG1-181">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+            <mxGeometry x="120" y="2560" width="660" height="220" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-186" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-183" target="afyTzrGn9s4vOxVSszG1-185" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-183" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Now Inventory.ini file banayege means Kis server pe karna ha&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;yaha 2 kaam karna hoga&amp;nbsp;&lt;br&gt;1st [web server ke andaar Managed node ki ip &amp;amp; user name de denge&amp;nbsp;&lt;br&gt;&amp;amp;&amp;nbsp;&lt;br&gt;2nd - [webserver:var] me key path de denge&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
+          <mxGeometry x="140" y="2890" width="620" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-199" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-185" target="afyTzrGn9s4vOxVSszG1-198" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-185" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;50 vm hai to manual IP &amp;amp; USERname type karnna difficult so use CMD&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot; style=&quot;&quot;&gt;&lt;b&gt;awk &#39;{printf &quot;managed%02d ansible_host=%s ansible_user=%s\n&quot;, NR, $1, $2}&#39; vm-list.txt&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; style=&quot;&quot;&gt;&lt;b&gt;or&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot; size=&quot;3&quot;&gt;&lt;b&gt;awk &#39;{printf &quot;managed%02d ansible_host = %s\n&quot; , NR ,$1,$2}&#39; vm-list.txt&lt;br&gt;&lt;br&gt;jo output aayega use Inventory.ini ke andar [webServers] ke andar paste kar denge&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot; size=&quot;3&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;2nd : [webservers:var] ke andar key cmd line kih denge&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font size=&quot;3&quot;&gt;ansible_ssh_private_key_file=/home/azureuser/.ssh/id_ed25519&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="120" y="3210" width="700" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-188" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Inventory.ini ko 2 cheez chaiye&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1st- kin users se SSH Connect karna hai&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;2- kaun si authentication/key use karni hai&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="450" y="2800" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-190" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;for Syntax structure : ansible-inventory &lt;span class=&quot;ͼn&quot;&gt;-i&lt;/span&gt; inventory.ini &lt;span class=&quot;ͼn&quot;&gt;--graph&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;gradientColor=#ea6b66;" parent="1" vertex="1">
+          <mxGeometry x="878.13" y="3210" width="481.87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-191" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;for Host&amp;nbsp; : ansible webservers -i inventory.ini --list-hosts&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bb%26gt%3B%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2014px%3B%26quot%3B%26gt%3Bfor%20Syntax%20structure%20%3A%20ansible-inventory%20%26lt%3Bspan%20class%3D%26quot%3B%CD%BCn%26quot%3B%26gt%3B-i%26lt%3B%2Fspan%26gt%3B%20inventory.ini%20%26lt%3Bspan%20class%3D%26quot%3B%CD%BCn%26quot%3B%26gt%3B--graph%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fb%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3BwhiteSpace%3Dwrap%3BstrokeColor%3D%23b85450%3BfillColor%3D%23f8cecc%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Brounded%3D0%3BgradientColor%3D%23ea6b66%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22878.13%22%20y%3D%223210%22%20width%3D%22471.87%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;gradientColor=#ea6b66;" parent="1" vertex="1">
+          <mxGeometry x="878.13" y="3275" width="481.87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-193" value="&lt;b&gt;VVI&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="3360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-196" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="1280" width="250" height="260" as="geometry" />
+        </mxCell>
+        <UserObject label="vm-list.txt&#xa;     ↓&#xa;SSH Key Setup&#xa;     ↓&#xa;inventory.ini ✅&#xa;     ↓&#xa;Connectivity Test (ping)&#xa;     ↓&#xa;nginx.yml  ← AB YE BANAYENGE&#xa;     ↓&#xa;ansible-playbook&#xa;     ↓&#xa;50 VMs par Nginx install&#xa;     ↓&#xa;Nginx status check" link="vm-list.txt&#xa;     ↓&#xa;SSH Key Setup&#xa;     ↓&#xa;inventory.ini ✅&#xa;     ↓&#xa;Connectivity Test (ping)&#xa;     ↓&#xa;nginx.yml  ← AB YE BANAYENGE&#xa;     ↓&#xa;ansible-playbook&#xa;     ↓&#xa;50 VMs par Nginx install&#xa;     ↓&#xa;Nginx status check" id="afyTzrGn9s4vOxVSszG1-195">
+          <mxCell style="text;whiteSpace=wrap;fontStyle=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;fontSize=13;" parent="1" vertex="1">
+            <mxGeometry x="660" y="1280" width="250" height="260" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-197" value="&lt;b&gt;ALL Process setup plan&amp;nbsp;&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#A50040;fillColor=#d80073;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="730" y="1240" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-198" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;For Connectivity Test : ansible webservers -i inventory.ini -m ansible.builtin.ping&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="158.13" y="3450" width="650" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-200" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;For Connectivity Test : ansible webservers -i inventory.ini -m ansible.builtin.ping&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="878.13" y="3390" width="481.87" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="---&#xa;# YAML document start&#xa;&#xa;&#xa;- name: Install Nginx on all web servers&#xa;  # Play ka naam&#xa;&#xa;&#xa;  hosts: webservers&#xa;  # Inventory ke [webservers] group ke sabhi VMs ko target karega&#xa;&#xa;&#xa;  become: yes&#xa;  # Tasks sudo/root privilege se execute honge&#xa;&#xa;&#xa;  tasks:&#xa;  # Yahan se tasks ki list start hoti hai&#xa;&#xa;&#xa;    - name: Update apt cache&#xa;      # APT package list update karne ka task&#xa;&#xa;&#xa;      ansible.builtin.apt:&#xa;        # Ubuntu/Debian package management ke liye APT module&#xa;&#xa;&#xa;        update_cache: yes&#xa;        # apt update run karega&#xa;&#xa;&#xa;        cache_valid_time: 3600&#xa;        # 3600 seconds (1 hour) tak fresh cache ho to dobara update nahi karega&#xa;&#xa;&#xa;    - name: Install Nginx&#xa;      # Nginx install karne ka task&#xa;&#xa;&#xa;      ansible.builtin.apt:&#xa;        # APT module use karega&#xa;&#xa;&#xa;        name: nginx&#xa;        # nginx package ko target karega&#xa;&#xa;&#xa;        state: present&#xa;        # Ensure karega ki Nginx installed hai&#xa;&#xa;&#xa;    - name: Start Nginx&#xa;      # Nginx service start karne ka task&#xa;&#xa;&#xa;      ansible.builtin.service:&#xa;        # Linux service manage karne ke liye service module&#xa;&#xa;&#xa;        name: nginx&#xa;        # nginx service ko target karega&#xa;&#xa;&#xa;        state: started&#xa;        # Ensure karega ki Nginx running hai&#xa;&#xa;&#xa;    - name: Enable Nginx at boot&#xa;      # Boot ke time Nginx automatically start karne ka task&#xa;&#xa;&#xa;      ansible.builtin.service:&#xa;        # Service management ke liye service module&#xa;&#xa;&#xa;        name: nginx&#xa;        # nginx service ko target karega&#xa;&#xa;&#xa;        enabled: yes&#xa;        # VM reboot ke baad Nginx automatically start hoga" link="---&#xa;# YAML document start&#xa;&#xa;&#xa;- name: Install Nginx on all web servers&#xa;  # Play ka naam&#xa;&#xa;&#xa;  hosts: webservers&#xa;  # Inventory ke [webservers] group ke sabhi VMs ko target karega&#xa;&#xa;&#xa;  become: yes&#xa;  # Tasks sudo/root privilege se execute honge&#xa;&#xa;&#xa;  tasks:&#xa;  # Yahan se tasks ki list start hoti hai&#xa;&#xa;&#xa;    - name: Update apt cache&#xa;      # APT package list update karne ka task&#xa;&#xa;&#xa;      ansible.builtin.apt:&#xa;        # Ubuntu/Debian package management ke liye APT module&#xa;&#xa;&#xa;        update_cache: yes&#xa;        # apt update run karega&#xa;&#xa;&#xa;        cache_valid_time: 3600&#xa;        # 3600 seconds (1 hour) tak fresh cache ho to dobara update nahi karega&#xa;&#xa;&#xa;    - name: Install Nginx&#xa;      # Nginx install karne ka task&#xa;&#xa;&#xa;      ansible.builtin.apt:&#xa;        # APT module use karega&#xa;&#xa;&#xa;        name: nginx&#xa;        # nginx package ko target karega&#xa;&#xa;&#xa;        state: present&#xa;        # Ensure karega ki Nginx installed hai&#xa;&#xa;&#xa;    - name: Start Nginx&#xa;      # Nginx service start karne ka task&#xa;&#xa;&#xa;      ansible.builtin.service:&#xa;        # Linux service manage karne ke liye service module&#xa;&#xa;&#xa;        name: nginx&#xa;        # nginx service ko target karega&#xa;&#xa;&#xa;        state: started&#xa;        # Ensure karega ki Nginx running hai&#xa;&#xa;&#xa;    - name: Enable Nginx at boot&#xa;      # Boot ke time Nginx automatically start karne ka task&#xa;&#xa;&#xa;      ansible.builtin.service:&#xa;        # Service management ke liye service module&#xa;&#xa;&#xa;        name: nginx&#xa;        # nginx service ko target karega&#xa;&#xa;&#xa;        enabled: yes&#xa;        # VM reboot ke baad Nginx automatically start hoga" id="afyTzrGn9s4vOxVSszG1-201">
+          <mxCell style="text;whiteSpace=wrap;fontStyle=1;fontSize=14;strokeColor=#B09500;fillColor=#e3c800;fontColor=#000000;" parent="1" vertex="1">
+            <mxGeometry x="156.13" y="3670" width="450" height="1470" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-202" value="&lt;h3 data-section-id=&quot;1ek1im4&quot; dir=&quot;auto&quot; data-start=&quot;1611&quot; data-end=&quot;1646&quot; class=&quot;PDq2pG_selectionAnchorContainer&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;🔥 Isko yaad rakhne ka shortcut&lt;span aria-hidden=&quot;true&quot; class=&quot;PDq2pG_selectionAnchor&quot; style=&quot;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/h3&gt;&lt;font style=&quot;&quot; size=&quot;3&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;pre class=&quot;overflow-visible! px-0!&quot; data-start=&quot;1648&quot; data-end=&quot;1862&quot;&gt;&lt;div class=&quot;relative w-full mt-4 mb-1&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;contents&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl&quot;&gt;&lt;div class=&quot;h-full w-full border-radius-3xl bg-(--code-block-surface) corner-superellipse/1.1 overflow-clip rounded-3xl [--code-block-surface:var(--bg-elevated-secondary)] dark:[--code-block-surface:var(--composer-surface-primary)] lxnfua_clipPathFallback&quot;&gt;&lt;div class=&quot;pointer-events-none absolute end-1.5 top-1 z-2 md:end-2 md:top-1&quot;&gt;&lt;/div&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;pe-11 pt-3&quot;&gt;&lt;div class=&quot;relative z-0 flex max-w-full&quot;&gt;&lt;div id=&quot;code-block-viewer&quot; dir=&quot;ltr&quot; class=&quot;q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼd ͼr&quot;&gt;&lt;div class=&quot;cm-scroller&quot;&gt;&lt;pre class=&quot;cm-content q9tKkq_readonly m-0&quot;&gt;&lt;code&gt;&lt;span&gt;&lt;font style=&quot;&quot; size=&quot;3&quot;&gt;&lt;b&gt;hosts     → KAHAN?&lt;br&gt;become    → KIS privilege se?&lt;br&gt;tasks     → KYA-KYA karna hai?&lt;br&gt;apt       → PACKAGE manage&lt;br&gt;service   → SERVICE manage&lt;br&gt;present   → INSTALLED&lt;br&gt;started   → RUNNING&lt;br&gt;enabled   → BOOT par START&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+          <mxGeometry x="670" y="3690" width="340" height="280" as="geometry" />
+        </mxCell>
+        <UserObject label="---&#xa;- name: Install Nginx on all web servers&#xa;  hosts: webservers&#xa;  become: yes&#xa;&#xa;&#xa;  tasks:&#xa;&#xa;&#xa;    - name: Update apt cache&#xa;      ansible.builtin.apt:&#xa;        update_cache: yes&#xa;        cache_valid_time: 3600&#xa;&#xa;&#xa;    - name: Install Nginx&#xa;      ansible.builtin.apt:&#xa;        name: nginx&#xa;        state: present&#xa;&#xa;&#xa;    - name: Start Nginx&#xa;      ansible.builtin.service:&#xa;        name: nginx&#xa;        state: started&#xa;&#xa;&#xa;    - name: Enable Nginx at boot&#xa;      ansible.builtin.service:&#xa;        name: nginx&#xa;        enabled: yes" link="---&#xa;- name: Install Nginx on all web servers&#xa;  hosts: webservers&#xa;  become: yes&#xa;&#xa;&#xa;  tasks:&#xa;&#xa;&#xa;    - name: Update apt cache&#xa;      ansible.builtin.apt:&#xa;        update_cache: yes&#xa;        cache_valid_time: 3600&#xa;&#xa;&#xa;    - name: Install Nginx&#xa;      ansible.builtin.apt:&#xa;        name: nginx&#xa;        state: present&#xa;&#xa;&#xa;    - name: Start Nginx&#xa;      ansible.builtin.service:&#xa;        name: nginx&#xa;        state: started&#xa;&#xa;&#xa;    - name: Enable Nginx at boot&#xa;      ansible.builtin.service:&#xa;        name: nginx&#xa;        enabled: yes" id="afyTzrGn9s4vOxVSszG1-203">
+          <mxCell style="text;whiteSpace=wrap;strokeColor=default;fontSize=14;" parent="1" vertex="1">
+            <mxGeometry x="690" y="3990" width="330" height="600" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.73;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;" parent="1" source="afyTzrGn9s4vOxVSszG1-198" target="afyTzrGn9s4vOxVSszG1-201" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="483" y="3590" />
+              <mxPoint x="487" y="3590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afyTzrGn9s4vOxVSszG1-205" value="&lt;b&gt;Ab Playbook banao&lt;br&gt;nano nginx.yml&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#ae4132;fillColor=#fad9d5;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="490" y="3560" width="235.5" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
