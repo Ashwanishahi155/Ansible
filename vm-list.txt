@@ -1,0 +1,2 @@
+20.189.95.79 azureuser
+20.219.133.235 azureuser

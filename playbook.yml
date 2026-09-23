@@ -1,0 +1,31 @@
+---
+- name: Install Nginx on all web servers
+  hosts: webservers
+  become: yes
+
+
+  tasks:
+
+
+    - name: Update apt cache
+      ansible.builtin.apt:
+        update_cache: yes
+        cache_valid_time: 3600
+
+
+    - name: Install Nginx
+      ansible.builtin.apt:
+        name: nginx
+        state: present
+
+
+    - name: Start Nginx
+      ansible.builtin.service:
+        name: nginx
+        state: started
+
+
+    - name: Enable Nginx at boot
+      ansible.builtin.service:
+        name: nginx
+        enabled: yes
